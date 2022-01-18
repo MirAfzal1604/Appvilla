@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppVilla</title>
+    <script src="https://kit.fontawesome.com/e01e13ae9c.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="icon" href="./images/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="nav">
+                <a href="#" class="logoA">
+                    <img src="./images/logo/white-logo-svg.png" class="logo" alt="logo">
+                </a>
+                <ul class="navUl">
+                    <li class="navLi">
+                        <a href="#" onclick="navClose()">Home</a>
+                    </li>
+                    <li class="navLi">
+                        <a href="#feature" onclick="navClose()">Features</a>
+                    </li>
+                    <li class="navLi">
+                        <a href="#overview" onclick="navClose()">Overview</a>
+                    </li>
+                    <li class="navLi">
+                        <a href="#pricing" onclick="navClose()">Pricing</a>
+                    </li>
+                    <li class="navLi">
+                        <a href="#team" onclick="navClose()">Team</a>
+                    </li>
+                    <li class="navLi">
+                        <a href="#" onclick="navClose()">Blog</a>
+                    </li>
+                    <li class="navLi">
+                        <a href="#" onclick="navClose()">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="burger" onclick="openNav(this)">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+
+                <div class="icon">
+                    <i class="fas fa-sun iconMode"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="mainFront">
+        <div class="container">
+            <div class="front">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-12 frontT">
+                        <h2 class="frontTitle">
+                            A powerful app for your business.
+                        </h2>
+                        <p class="frontText">
+                            From open sour ce to pro services, Piqes helps you to build, deploy, test, and monitor apps.
+                        </p>
+                        <div class="frontBtn">
+                            <a href="#" class="frontInt front1">
+                                <i class="fab fa-apple"></i> <span>App Store</span>
+                            </a>
+
+                            <a href="#" class="frontInt front2">
+                                <i class="fab fa-google"></i> <span>Google Play</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 col-12 frontImg">
+                        <img src="./images/hero/phone.png" alt="Phone">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="feature" class="backBg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="sectionTitle">
+                        <p class="section-small">
+                            Features
+                        </p>
+                        <p class="section-title">
+                            Your Experience Gets Better And Better Over Time.
+                        </p>
+                        <p class="section-text">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 featureItems">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="featureBox">
+                                <i class="fas fa-cloud featureIcon"></i>
+                                <h3>Push to Deploy</h3>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page at its layout.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="featureBox">
+                                <i class="fas fa-lock featureIcon"></i>
+                                <h3>SSL Certificates</h3>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page at its layout.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="featureBox">
+                                <i class="fas fa-redo-alt featureIcon"></i>
+                                <h3>Simple Queues</h3>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page at its layout.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="featureBox">
+                                <i class="fas fa-shield-alt featureIcon"></i>
+                                <h3>Advanced Security</h3>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page at its layout.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="featureBox">
+                                <i class="fas fa-cog featureIcon"></i>
+                                <h3>Powerful API</h3>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page at its layout.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="featureBox">
+                                <i class="fas fa-database featureIcon"></i>
+                                <h3>Database Backups</h3>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page at its layout.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="overview">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-6">
+                            <div class="appHead">
+                                <i class="fas fa-cloud-download-alt featureIcon"></i>
+                                <h2>1,25,000 Customers Using The Application!</h2>
+                                <p>Collaborate over projects with your team and clients optimised for mobile and tablet don't let slow page speeds drive our innovative platform empowers anyone to convert clicks ou'll publish your first landing page in minutes.</p>
+                                <div class="button">
+                                    <a href="#">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-12 appImg">
+                            <img src="./images/phone1.jpg" alt="App phone" class="w-100">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 appHead2">
+                    <div class="row align-items-center appContent2">
+                        <div class="col-12 col-lg-6 appImg">
+                            <img src="./images/phone2.jpg" alt="App phone" class="w-100">
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="appHead">
+                                <i class="fas fa-th-list featureIcon"></i>
+                                <h2>1,25,000 Customers Using The Application!</h2>
+                                <p>Collaborate over projects with your team and clients optimised for mobile and tablet don't let slow page speeds drive our innovative platform empowers anyone to convert clicks ou'll publish your first landing page in minutes.</p>
+                                <div class="button">
+                                    <a href="#">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sameBg">
+        <div class="container">
+
+            <div class="trustBox">
+                <div class="trustText">
+                    <h2>Trusted by developers from over 80 planets</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12 trustNum">
+                    <h3 class="counter"><span>100 </span>%</h3>
+                    <p>satisfaction</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 trustNum">
+                    <h3 class="counter"><span>120 </span>K</h3>
+                    <p>Happy Users</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 trustNum">
+                    <h3 class="counter"><span>125 </span>k+</h3>
+                    <p>Downloads</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="backBg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="sectionTitle">
+                        <p class="section-small">
+                            pricing
+                        </p>
+                        <p class="section-title">
+                            Pricing Plan
+                        </p>
+                        <p class="section-text">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="tableBox">
+                                <div class="table-head">
+                                    <h4 class="title">Hobby</h4>
+                                    <p>All the basics for starting a new business</p>
+                                    <div class="price">
+                                        <h2 class="amount">$12<span class="duration">/mo</span></h2>
+                                    </div>
+                                    <button class="tableBtn">
+                                    <a href="#">Buy Hobby</a>
+                                </button>
+                                </div>
+                                <div class="table-content">
+                                    <h4 class="middle-title">What's Included</h4>
+                                    <ul class="table-list">
+                                        <li><i class="fas fa-check-circle"></i> Cras justo odio.</li>
+                                        <li><i class="fas fa-check-circle"></i> Dapibus ac facilisis in.</li>
+                                        <li><i class="fas fa-check-circle"></i> Morbi leo risus.</li>
+                                        <li><i class="fas fa-check-circle"></i> Potenti felis, in cras ligula.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="tableBox">
+                                <div class="table-head">
+                                    <h4 class="title">Freelancer</h4>
+                                    <p>All the basics for starting a new business</p>
+                                    <div class="price">
+                                        <h2 class="amount">$24<span class="duration">/mo</span></h2>
+                                    </div>
+                                    <button class="tableBtn">
+                                    <a href="#">Buy Freelancer</a>
+                                </button>
+                                </div>
+                                <div class="table-content">
+                                    <h4 class="middle-title">What's Included</h4>
+                                    <ul class="table-list">
+                                        <li><i class="fas fa-check-circle"></i> Cras justo odio.</li>
+                                        <li><i class="fas fa-check-circle"></i> Dapibus ac facilisis in.</li>
+                                        <li><i class="fas fa-check-circle"></i> Morbi leo risus.</li>
+                                        <li><i class="fas fa-check-circle"></i> Potenti felis, in cras ligula.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="tableBox">
+                                <div class="table-head">
+                                    <h4 class="title">Startup</h4>
+                                    <p>All the basics for starting a new business</p>
+                                    <div class="price">
+                                        <h2 class="amount">$32<span class="duration">/mo</span></h2>
+                                    </div>
+                                    <button class="tableBtn">
+                                    <a href="#">Buy Startup</a>
+                                </button>
+                                </div>
+                                <div class="table-content">
+                                    <h4 class="middle-title">What's Included</h4>
+                                    <ul class="table-list">
+                                        <li><i class="fas fa-check-circle"></i> Cras justo odio.</li>
+                                        <li><i class="fas fa-check-circle"></i> Dapibus ac facilisis in.</li>
+                                        <li><i class="fas fa-check-circle"></i> Morbi leo risus.</li>
+                                        <li><i class="fas fa-check-circle"></i> Potenti felis, in cras ligula.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-3">
+                            <div class="tableBox">
+                                <div class="table-head">
+                                    <h4 class="title">Enterprise</h4>
+                                    <p>All the basics for starting a new business</p>
+                                    <div class="price">
+                                        <h2 class="amount">$48<span class="duration">/mo</span></h2>
+                                    </div>
+                                    <button class="tableBtn">
+                                    <a href="#">Buy Enterprise</a>
+                                </button>
+                                </div>
+                                <div class="table-content">
+                                    <h4 class="middle-title">What's Included</h4>
+                                    <ul class="table-list">
+                                        <li><i class="fas fa-check-circle"></i> Cras justo odio.</li>
+                                        <li><i class="fas fa-check-circle"></i> Dapibus ac facilisis in.</li>
+                                        <li><i class="fas fa-check-circle"></i> Morbi leo risus.</li>
+                                        <li><i class="fas fa-check-circle"></i> Potenti felis, in cras ligula.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="sectionTitle">
+                        <p class="section-small">
+                            Team
+                        </p>
+                        <p class="section-title">
+                            Meat our team
+                        </p>
+                        <p class="section-text">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="teamContent">
+                                <div class="teamImage">
+                                    <img src="./images/image1.jpg" alt="#">
+                                </div>
+                                <div class="teamCon">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-7 col-12">
+                                            <div class="teamText">
+                                                <h3><a href="#">Leonard Krasner</a></h3>
+                                                <h5>Senior Designer</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5 col-12">
+                                            <ul class="teamSocial float-end">
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a>
+                                                </li>
+                                                <li><a href="#"><i class="fab fa-behance"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="teamContent">
+                                <div class="teamImage">
+                                    <img src="./images/image2.jpg" alt="#">
+                                </div>
+                                <div class="teamCon">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-7 col-12">
+                                            <div class="teamText">
+                                                <h3><a href="#">Leonard Krasner</a></h3>
+                                                <h5>Senior Designer</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5 col-12">
+                                            <ul class="teamSocial float-end">
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a>
+                                                </li>
+                                                <li><a href="#"><i class="fab fa-behance"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="teamContent">
+                                <div class="teamImage">
+                                    <img src="./images/image3.jpg" alt="#">
+                                </div>
+                                <div class="teamCon">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-7 col-12">
+                                            <div class="teamText">
+                                                <h3><a href="#">Leonard Krasner</a></h3>
+                                                <h5>Senior Designer</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5 col-12">
+                                            <ul class="teamSocial float-end">
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a>
+                                                </li>
+                                                <li><a href="#"><i class="fab fa-behance"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="backBg position-relative overflow-hidden">
+        <img src="./images/bgSWiper.jpg" alt="BgSwiper" class="bgSwiper bgSwiper1">
+        <img src="./images/bgSWiper.jpg" alt="BgSwiper" class="bgSwiper bgSwiper2">
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="interface">
+                            <div class="brand-icon">
+                                <p>Mirafzal</p>
+                            </div>
+                            <p>"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has"</p>
+                            <div class="author">
+                                <lord-icon src="https://cdn.lordicon.com/kbtmbyzy.json" trigger="loop" colors="primary:#121331,secondary:#08a88a" style="width:100px;height:100px"></lord-icon>
+                                <h4 class="name">
+                                    Naimur Rahman
+                                    <span class="deg">CEO - WpthemesGrid</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="interface">
+                            <div class="brand-icon">
+                                <p>Mirafzal</p>
+                            </div>
+                            <p>"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has"</p>
+                            <div class="author">
+                                <lord-icon src="https://cdn.lordicon.com/qhgmphtg.json" trigger="loop" colors="primary:#121331,secondary:#08a88a" style="width:100px;height:100px">
+                                </lord-icon>
+                                <h4 class="name">
+                                    Naimur Rahman
+                                    <span class="deg">CEO - WpthemesGrid</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="interface">
+                            <div class="brand-icon">
+                                <p>Mirafzal</p>
+                            </div>
+                            <p>"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has"</p>
+                            <div class="author">
+                                <lord-icon src="https://cdn.lordicon.com/hciqteio.json" trigger="loop" colors="primary:#30c9e8,secondary:#4f1091" style="width:100px;height:100px"></lord-icon>
+                                <h4 class="name">
+                                    Naimur Rahman
+                                    <span class="deg">CEO - WpthemesGrid</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="interface">
+                            <div class="brand-icon">
+                                <p>Mirafzal</p>
+                            </div>
+                            <p>"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has"</p>
+                            <div class="author">
+                                <lord-icon src="https://cdn.lordicon.com/jqeuwnmb.json" trigger="loop" colors="primary:#545454,secondary:#1b1091" style="width:100px;height:100px"></lord-icon>
+                                <h4 class="name">
+                                    Naimur Rahman
+                                    <span class="deg">CEO - WpthemesGrid</span>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <section class="sameBg">
+        <div class="container">
+
+            <div class="trustBox">
+                <div class="trustText">
+                    <h2>Install Appvilla and Start Using</h2>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                </div>
+            </div>
+
+            <div class="frontBtn marginBtn">
+                <a href="#" class="frontInt front1">
+                    <i class="fab fa-apple"></i> <span>App Store</span>
+                </a>
+
+                <a href="#" class="frontInt front2">
+                    <i class="fab fa-google"></i> <span>Google Play</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="sectionTitle">
+                        <p class="section-small">
+                            Faq
+                        </p>
+                        <p class="section-title">
+                            Frequently Asked Questions
+                        </p>
+                        <p class="section-text">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="accordion" id="accordionExample">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    <span class="title">
+                                        <span class="serial">01</span>How Do I Contact Customer Services?
+                                
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit amet ante nec vulputate. Nulla aliquam, justo auctor consequat tincidunt, arcu erat mattis lorem, lacinia lacinia dui enim at eros. Pellentesque
+                                        ut gravida augue. Duis ac dictum tellus
+                                    </p>
+                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3
+                                        wolf moon tempor, sunt alqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim ke ffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <span class="title">
+                                        <span class="serial">02</span> Material types can you worK with?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3
+                                        wolf moon tempor, sunt alqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim ke ffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                                    </p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur sit amet ante nec vulputate. Nulla aliquam, justo auctor consequat tincidunt, arcu erat mattis lorem, lacinia lacinia dui enim at eros. Pellentesque
+                                        ut gravida augue. Duis ac dictum tellus
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <span class="title">
+                                        <span class="serial">03</span>Can I have multiple activities in a single feature?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas expedita, repellendus est nemo cum quibusdam optio, voluptate hic a tempora facere, nihil non itaque alias similique quas quam odit consequatur.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <span class="title">
+                                        <span class="serial">04</span>How Clients Can Consult With online?
+                                    </span>
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3
+                                        wolf moon tempor, sunt alqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident iure ab nisi, magnam vitae. Laboriosam laborum suscipit recusandae officia laudantium, consectetur adipisci voluptates doloremque quisquam. Id rerum
+                                        iusto reprehenderit assumenda!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    <span class="title">
+                                        <span class="serial">05</span>Can I share resources between features?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute. non cupidatat skateboard dolor brunch. Foosd truck quinoa nesciunt laborum eiusmod. Brunch 3
+                                        wolf moon tempor, sunt alqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="backBg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="sectionTitle">
+                        <p class="section-small">
+                            Blogs
+                        </p>
+                        <p class="section-title">
+                            Our Latest News
+                        </p>
+                        <p class="section-text">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="single-blog">
+                                <div class="blog-img">
+                                    <a href="#">
+                                        <img src="./images/face.jpg" alt="# ">
+                                    </a>
+                                </div>
+                                <div class="blog-content ">
+                                    <a class="category">Blog</a>
+                                    <h4>
+                                        <a href="#">Boost your conversion rate</a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt dolore magna.
+                                    </p>
+                                    <div class="autor">
+                                        <a href="#">
+                                            <img src="./images/facelogo.jpg" alt="#">
+                                        </a>
+                                        <a href="#" class="name">Roel Aufderhar</a>
+                                        <ul class="meta-content">
+                                            <li>
+                                                <a href="#">Mar 15,2023</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">5 min read</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="single-blog">
+                                <div class="blog-img">
+                                    <a href="#">
+                                        <img src="./images/face2.jpg" alt="# ">
+                                    </a>
+                                </div>
+                                <div class="blog-content ">
+                                    <a class="category">Blog</a>
+                                    <h4>
+                                        <a href="#">Boost your conversion rate</a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt dolore magna.
+                                    </p>
+                                    <div class="autor">
+                                        <a href="#">
+                                            <img src="./images/facelogo2.jpg" alt="#">
+                                        </a>
+                                        <a href="#" class="name">Roel Aufderhar</a>
+                                        <ul class="meta-content">
+                                            <li>
+                                                <a href="#">Mar 15,2023</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">5 min read</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="single-blog">
+                                <div class="blog-img">
+                                    <a href="#">
+                                        <img src="./images/face3.jpg" alt="# ">
+                                    </a>
+                                </div>
+                                <div class="blog-content ">
+                                    <a class="category">Blog</a>
+                                    <h4>
+                                        <a href="#">Boost your conversion rate</a>
+                                    </h4>
+                                    <p>Lorem ipsum dolor sit amet, adipscing elitr, sed diam nonumy eirmod tempor ividunt dolore magna.
+                                    </p>
+                                    <div class="autor">
+                                        <a href="#">
+                                            <img src="./images/facelogo3.jpg" alt="#">
+                                        </a>
+                                        <a href="#" class="name">Roel Aufderhar</a>
+                                        <ul class="meta-content">
+                                            <li>
+                                                <a href="#">Mar 15,2023</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">5 min read</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="swiper downSwiper">
+                <div class="swiper-wrapper flex-swiper">
+                    <div class="swiper-slide">
+                        <img src="./images/brand1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/brand2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/brand3.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/brand1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/brand2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/brand3.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/brand1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/brand2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/brand3.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/brand1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/brand2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/brand3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <div style="height: 16000px; "></div>
+
+    <script src="./js/darkness.js "></script>
+    <script src="./js/burger.js "></script>
+    <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js "></script>
+    <script src="./js/nav.js "></script>
+    <script src="./js/swiperCube.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
+</body>
+
+</html>
