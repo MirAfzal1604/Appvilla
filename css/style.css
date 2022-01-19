@@ -115,15 +115,15 @@ body {
 
 @keyframes loading {
     0% {
-        border: 30px solid var(--mainColor);
+        border: 20px solid var(--mainColor);
         opacity: 1;
     }
     50% {
-        border: 60px solid var(--mainColor);
+        border: 40px solid var(--mainColor);
         opacity: 0.5;
     }
     100% {
-        border: 100px solid var(--mainColor);
+        border: 60px solid var(--mainColor);
         opacity: 0;
     }
 }
@@ -217,6 +217,10 @@ header {
     position: relative;
     padding: 35px 0;
     font-weight: 600;
+}
+
+.navUl .navLi a.active {
+    color: var(--mainColor);
 }
 
 .icon i {

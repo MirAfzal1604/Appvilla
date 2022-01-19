@@ -1,7 +1,9 @@
-setInterval(loading, 1000);
-
 var load = document.querySelector(".loader");
 
+window.onload = function() {
+    window.setTimeout(loading, 4000);
+}
+
 function loading() {
-    load.style.display = "none";
+    document.querySelector(".loader").style.display = "none";
 }
