@@ -14,7 +14,15 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
-<body>
+<body onload="loading()">
+
+    <div class="loader">
+        <div class="middleAnima">
+            <div class="anima"></div>
+        </div>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn"><i class="fas fa-arrow-up"></i></button>
 
     <header>
         <div class="container">
@@ -910,6 +918,7 @@
 
     </footer>
 
+    <script src="./js/loader.js"></script>
     <script src="./js/darkness.js "></script>
     <script src="./js/burger.js "></script>
     <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js "></script>
