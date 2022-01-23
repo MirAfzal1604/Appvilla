@@ -1,7 +1,7 @@
-var load = document.querySelector(".loader");
+// var load = document.querySelector(".loader");
 
 window.onload = function() {
-    window.setTimeout(loading, 4000);
+    window.setTimeout(loading, 3000);
 }
 
 function loading() {

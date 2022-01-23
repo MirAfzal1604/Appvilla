@@ -72,12 +72,14 @@ body {
     --mainColor: #ff6b81;
     --mainFFF: #fff;
     --footerbg: #081828;
+    --bgFont: #fff;
 }
 
 .dark-theme {
     --mainColor: #af5361;
     --mainFFF: rgb(212, 212, 212);
     --footerbg: #091725;
+    --bgFont: rgb(212, 212, 212);
 }
 
 body {
@@ -95,7 +97,7 @@ body {
     right: 0;
     margin: auto;
     background: var(--footerbg);
-    z-index: 100;
+    z-index: 101;
 }
 
 .middleAnima {
@@ -115,15 +117,23 @@ body {
 
 @keyframes loading {
     0% {
-        border: 20px solid var(--mainColor);
+        border: 0px solid var(--mainColor);
         opacity: 1;
     }
+    25% {
+        border: 10px solid var(--mainColor);
+        opacity: 0.75;
+    }
     50% {
-        border: 40px solid var(--mainColor);
+        border: 20px solid var(--mainColor);
         opacity: 0.5;
     }
+    75% {
+        border: 30px solid var(--mainColor);
+        opacity: 0.25;
+    }
     100% {
-        border: 60px solid var(--mainColor);
+        border: 40px solid var(--mainColor);
         opacity: 0;
     }
 }
@@ -409,6 +419,10 @@ section {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 20px;
+}
+
+.bgFFF {
+    background-color: var(--bgFont);
 }
 
 .appHead h2 {
